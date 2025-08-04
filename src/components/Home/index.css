@@ -1,0 +1,270 @@
+.home-container {
+  font-family: "Roboto";
+  width: 100vw;
+}
+
+.home-bottom-container {
+  width: 100%;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom-cont {
+  width: 70%;
+}
+
+.search-container {
+  display: flex;
+  width: 600px;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
+  margin-bottom: 15px;
+}
+
+.search-icon {
+  font-size: 25px;
+}
+
+.inputt {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 16px;
+  margin-left: 10px;
+  font-weight: 500;
+  font-family: "Roboto";
+}
+
+.list-container {
+  width: 100%;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+
+.heading-list-item {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 10px;
+}
+
+.heading {
+  font-size: 23px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.list-item {
+  width: 85%;
+  border: none;
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  padding: 40px;
+  padding-left: 80px;
+  padding-right: 140px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.hover-text {
+  color: white;
+  text-align: center;
+}
+
+.list-item:hover .hover-text {
+  color: skyblue;
+}
+
+.link-cont {
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+}
+
+.profile-details-cont {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  font-family: "Roboto";
+}
+
+.home-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.details-cont {
+  margin-left: 30px;
+}
+
+.name {
+  color: rgb(86, 193, 235);
+  font-size: 24px;
+  margin-bottom: 8px;
+  margin-top: 0px;
+  letter-spacing: 1px;
+}
+
+.specialization {
+  font-size: 14px;
+  color: rgb(90, 86, 86);
+  margin-top: 3px;
+  margin-bottom: 7px;
+  letter-spacing: 1px;
+}
+
+.experience {
+  color: rgb(90, 86, 86);
+  font-size: 14px;
+  margin-top: 0px;
+  padding-top: 0px;
+  letter-spacing: 1px;
+}
+
+.hospital {
+  color: rgb(90, 86, 86);
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.status {
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+}
+
+.sttus-icon {
+  margin-right: 5px;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.orange {
+  color: orange;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.failure-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+@media (max-width: 500px) {
+  .home-bottom-container {
+    padding-top: 15px;
+  }
+
+  .bottom-cont {
+    width: 95%;
+  }
+
+  .search-container {
+    width: 260px;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 0px;
+  }
+
+  .search-icon {
+    font-size: 20px;
+  }
+
+  .inputt {
+    font-size: 13px;
+    margin-left: 7px;
+  }
+
+  .heading-list-item {
+    margin-bottom: 0px;
+  }
+
+  .heading {
+    font-size: 15px;
+  }
+
+  .list-item {
+    width: 85%;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+  }
+
+  .hover-text {
+    font-size: 5px;
+  }
+
+  .list-item:hover .hover-text {
+    color: skyblue;
+  }
+
+  .home-image {
+    width: 60px;
+    height: 60px;
+  }
+
+  .details-cont {
+    margin-left: 10px;
+  }
+
+  .name {
+    font-size: 13px;
+    margin-bottom: 0px;
+  }
+
+  .specialization {
+    font-size: 9px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+
+  .experience {
+    color: rgb(90, 86, 86);
+    font-size: 9px;
+    margin-bottom: 3px;
+  }
+
+  .hospital {
+    color: rgb(90, 86, 86);
+    font-size: 9px;
+    margin-top: 0px;
+  }
+
+  .status {
+    font-size: 10px;
+  }
+
+  .sttus-icon {
+    margin-right: 2px;
+  }
+}

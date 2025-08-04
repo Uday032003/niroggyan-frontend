@@ -1,0 +1,850 @@
+.profile-main-container {
+  font-family: "Roboto";
+  width: 100vw;
+}
+
+.profile-bottom-container {
+  width: 100%;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btm-cont {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.back-icon {
+  font-size: 30px;
+  margin: 20px;
+  margin-left: 60px;
+  cursor: pointer;
+}
+
+.image-details-container {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  margin-bottom: 30px;
+}
+
+.profile-image {
+  width: 120px;
+  height: 120px;
+}
+
+.details-container {
+  margin-left: 40px;
+}
+
+.profile-name {
+  color: black;
+  font-size: 33px;
+  margin-bottom: 8px;
+  margin-top: 0px;
+  letter-spacing: 1px;
+}
+
+.profile-degree {
+  font-size: 16px;
+  color: rgb(90, 86, 86);
+  margin-top: 3px;
+  margin-bottom: 7px;
+  letter-spacing: 1px;
+}
+
+.profile-specialization {
+  font-size: 16px;
+  color: rgb(90, 86, 86);
+  margin-top: 3px;
+  margin-bottom: 7px;
+  letter-spacing: 1px;
+}
+
+.profile-experience {
+  font-size: 16px;
+  color: rgb(90, 86, 86);
+  margin-top: 3px;
+  margin-bottom: 7px;
+  letter-spacing: 1px;
+}
+
+.profile-verified-cont {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.tic-icon {
+  color: green;
+  font-size: 23px;
+}
+
+.profile-verified {
+  font-size: 16px;
+  color: rgb(90, 86, 86);
+  margin-top: 3px;
+  margin-bottom: 7px;
+  margin-left: 8px;
+  padding-top: 5px;
+}
+
+.profile-description {
+  font-size: 17px;
+  color: rgb(90, 86, 86);
+  margin-top: 3px;
+  margin-bottom: 7px;
+  letter-spacing: 1px;
+}
+
+.trim-text {
+  font-family: "Bree Serif";
+  color: darkblue;
+  cursor: pointer;
+  letter-spacing: 0px;
+}
+
+.hos-info-cont {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.hos-info-head {
+  font-size: 20px;
+  color: rgb(66, 64, 64);
+  margin-top: 20px;
+}
+
+.hos-loc-cont {
+  width: 350px;
+}
+
+.hos-name {
+  color: rgb(90, 86, 86);
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-left: 20px;
+  margin-bottom: 0px;
+}
+
+.hos-add {
+  display: flex;
+  justify-content: center;
+  color: rgb(90, 86, 86);
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-left: 15px;
+}
+
+.loc-icon {
+  color: black;
+  font-size: 27px;
+  margin-right: 6px;
+  margin-top: 13px;
+}
+
+.hos-tim-cont {
+  margin-left: 30px;
+}
+
+.mon-sat-head {
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 0px;
+}
+
+.mon-sat-time {
+  color: rgb(90, 86, 86);
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-top: 5px;
+}
+
+.sun-head {
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 0px;
+}
+
+.sun-time {
+  color: rgb(90, 86, 86);
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-top: 5px;
+}
+
+.stattus {
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  margin-left: 200px;
+}
+
+.sttus-icon {
+  margin-right: 5px;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.orange {
+  color: orange;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.failure-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.book-btn {
+  align-self: flex-end;
+  font-family: "Roboto";
+  font-size: 18px;
+  background-color: #00aeef;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.book-btn:hover {
+  background-color: white;
+  color: #00aeef;
+  border: 1px solid #00aeef;
+}
+
+.form-container {
+  font-family: "Roboto";
+  width: 500px;
+  background-color: rgb(231, 231, 231);
+  padding: 30px;
+  padding-left: 80px;
+  padding-right: 80px;
+  border-radius: 10px;
+  padding-bottom: 40px;
+}
+
+.form-head {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.patient-name-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.patient-name-label {
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.patient-name-input {
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: "Roboto";
+  cursor: pointer;
+}
+
+.patient-email-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.patient-email-label {
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.patient-email-input {
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  font-family: "Roboto";
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.patient-date-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.patient-date-label {
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.patient-date-input {
+  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  font-family: "Roboto";
+  font-size: 15px;
+  width: 130px;
+  cursor: pointer;
+}
+
+.patient-time-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.patient-time-label {
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.patient-time-input {
+  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  font-family: "Roboto";
+  font-size: 15px;
+  width: 130px;
+  cursor: pointer;
+}
+
+.btn-cont {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.submit-btn {
+  color: white;
+  background-color: #00aeef;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  padding-left: 15px;
+  padding-right: 15px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: rgb(231, 231, 231);
+  color: #00aeef;
+  border: 1px solid #00aeef;
+}
+
+.close-btn {
+  background-color: rgb(231, 231, 231);
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.error-msg {
+  color: red;
+  font-size: 13px;
+  margin-top: 0px;
+}
+
+.confired-msg-cont {
+  align-self: center;
+  color: green;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  border: 1px solid green;
+  border-radius: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.con-icon {
+  margin-right: 5px;
+  font-size: 25px;
+}
+
+.appointment-confired-msg-cont {
+  align-self: flex-end;
+  color: purple;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  border: 1px solid purple;
+  border-radius: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.popup-overlay {
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.25);
+  position: fixed;
+  padding: 100px;
+}
+
+@media (max-width: 500px) {
+  .profile-bottom-container {
+    padding-top: 0px;
+  }
+
+  .btm-cont {
+    width: 100%;
+  }
+
+  .back-icon {
+    font-size: 30px;
+    margin: 20px;
+    margin-left: 60px;
+    cursor: pointer;
+  }
+
+  .image-details-container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-bottom: 30px;
+  }
+
+  .profile-image {
+    width: 120px;
+    height: 120px;
+  }
+
+  .details-container {
+    margin-left: 40px;
+  }
+
+  .profile-name {
+    color: black;
+    font-size: 33px;
+    margin-bottom: 8px;
+    margin-top: 0px;
+    letter-spacing: 1px;
+  }
+
+  .profile-degree {
+    font-size: 16px;
+    color: rgb(90, 86, 86);
+    margin-top: 3px;
+    margin-bottom: 7px;
+    letter-spacing: 1px;
+  }
+
+  .profile-specialization {
+    font-size: 16px;
+    color: rgb(90, 86, 86);
+    margin-top: 3px;
+    margin-bottom: 7px;
+    letter-spacing: 1px;
+  }
+
+  .profile-experience {
+    font-size: 16px;
+    color: rgb(90, 86, 86);
+    margin-top: 3px;
+    margin-bottom: 7px;
+    letter-spacing: 1px;
+  }
+
+  .profile-verified-cont {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .tic-icon {
+    color: green;
+    font-size: 23px;
+  }
+
+  .profile-verified {
+    font-size: 16px;
+    color: rgb(90, 86, 86);
+    margin-top: 3px;
+    margin-bottom: 7px;
+    margin-left: 8px;
+    padding-top: 5px;
+  }
+
+  .profile-description {
+    font-size: 17px;
+    color: rgb(90, 86, 86);
+    margin-top: 3px;
+    margin-bottom: 7px;
+    letter-spacing: 1px;
+  }
+
+  .trim-text {
+    font-family: "Bree Serif";
+    color: darkblue;
+    cursor: pointer;
+    letter-spacing: 0px;
+  }
+
+  .hos-info-cont {
+    display: flex;
+    margin-bottom: 40px;
+  }
+
+  .hos-info-head {
+    font-size: 20px;
+    color: rgb(66, 64, 64);
+    margin-top: 20px;
+  }
+
+  .hos-loc-cont {
+    width: 350px;
+  }
+
+  .hos-name {
+    color: rgb(90, 86, 86);
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+  }
+
+  .hos-add {
+    display: flex;
+    justify-content: center;
+    color: rgb(90, 86, 86);
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-left: 15px;
+  }
+
+  .loc-icon {
+    color: black;
+    font-size: 27px;
+    margin-right: 6px;
+    margin-top: 13px;
+  }
+
+  .hos-tim-cont {
+    margin-left: 30px;
+  }
+
+  .mon-sat-head {
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+  }
+
+  .mon-sat-time {
+    color: rgb(90, 86, 86);
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 5px;
+  }
+
+  .sun-head {
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+  }
+
+  .sun-time {
+    color: rgb(90, 86, 86);
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 5px;
+  }
+
+  .stattus {
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    margin-left: 200px;
+  }
+
+  .sttus-icon {
+    margin-right: 5px;
+  }
+
+  .green {
+    color: green;
+  }
+
+  .red {
+    color: red;
+  }
+
+  .orange {
+    color: orange;
+  }
+
+  .loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+  }
+
+  .failure-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+  }
+
+  .book-btn {
+    align-self: flex-end;
+    font-family: "Roboto";
+    font-size: 18px;
+    background-color: #00aeef;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+  }
+
+  .book-btn:hover {
+    background-color: white;
+    color: #00aeef;
+    border: 1px solid #00aeef;
+  }
+
+  .form-container {
+    font-family: "Roboto";
+    width: 500px;
+    background-color: rgb(231, 231, 231);
+    padding: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-radius: 10px;
+    padding-bottom: 40px;
+  }
+
+  .form-head {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+  .patient-name-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .patient-name-label {
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+
+  .patient-name-input {
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: "Roboto";
+    cursor: pointer;
+  }
+
+  .patient-email-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .patient-email-label {
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+
+  .patient-email-input {
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-family: "Roboto";
+    font-size: 15px;
+    cursor: pointer;
+  }
+
+  .patient-date-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .patient-date-label {
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+
+  .patient-date-input {
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-family: "Roboto";
+    font-size: 15px;
+    width: 130px;
+    cursor: pointer;
+  }
+
+  .patient-time-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .patient-time-label {
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+
+  .patient-time-input {
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-family: "Roboto";
+    font-size: 15px;
+    width: 130px;
+    cursor: pointer;
+  }
+
+  .btn-cont {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+
+  .submit-btn {
+    color: white;
+    background-color: #00aeef;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+  }
+
+  .submit-btn:hover {
+    background-color: rgb(231, 231, 231);
+    color: #00aeef;
+    border: 1px solid #00aeef;
+  }
+
+  .close-btn {
+    background-color: rgb(231, 231, 231);
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .error-msg {
+    color: red;
+    font-size: 13px;
+    margin-top: 0px;
+  }
+
+  .confired-msg-cont {
+    align-self: center;
+    color: green;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    border: 1px solid green;
+    border-radius: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .con-icon {
+    margin-right: 5px;
+    font-size: 25px;
+  }
+
+  .appointment-confired-msg-cont {
+    align-self: flex-end;
+    color: purple;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    border: 1px solid purple;
+    border-radius: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .popup-overlay {
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.25);
+    position: fixed;
+    padding: 100px;
+  }
+}

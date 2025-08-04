@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route } from "react-router-dom";
+import { useState } from "react";
 
-function App() {
+import Home from "./components/Home";
+import DoctorProfile from "./components/DoctorProfile";
+import ItemsContext from "./context/MyContext";
+import Appointments from "./components/Appointments";
+
+const App = () => {
+  const [itemsList, setItemsList] = useState([]);
+  const addItems = (obj) => {
+    const filterItem = itemsList.filter((i) => i.id === obj.id);
+    if (filterItem.length === 0) {
+      setItemsList([...itemsList, obj]);
+    }
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ItemsContext.Provider value={{ itemsList, addItems: addItems }}>
+      <Routes>
+        <Route exact path="/" Component={Home} />
+        <Route exact path="/doctors/:id" Component={DoctorProfile} />
+        <Route exact path="/appointments" Component={Appointments} />
+      </Routes>
+    </ItemsContext.Provider>
   );
-}
+};
 
 export default App;

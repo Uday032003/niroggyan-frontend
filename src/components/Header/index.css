@@ -1,0 +1,68 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+  height: 10vh;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.header-logo {
+  width: 170px;
+  height: 160px;
+  cursor: pointer;
+}
+
+.icon-container {
+  margin-right: 40px;
+  display: flex;
+}
+
+.iconn {
+  font-size: 22px;
+}
+
+.span-item {
+  display: block;
+  background-color: red;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  font-size: 11px;
+  text-align: center;
+  position: relative;
+  left: -18px;
+  top: -1px;
+  color: white;
+}
+
+.cal-btn {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  .header-container {
+    height: 8vh;
+  }
+
+  .header-logo {
+    width: 120px;
+    height: 110px;
+  }
+
+  .icon-container {
+    margin-right: 30px;
+  }
+
+  .iconn {
+    font-size: 18px;
+  }
+
+  .span-item {
+    left: -16px;
+    top: -3px;
+  }
+}
