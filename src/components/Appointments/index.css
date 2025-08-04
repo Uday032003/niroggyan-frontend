@@ -98,7 +98,7 @@
   font-weight: bold;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
   .appointments-btm-cont {
     padding-top: 10px;
   }
