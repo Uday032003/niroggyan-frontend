@@ -213,7 +213,7 @@
 
   .list-item {
     width: 85%;
-    padding: 15px;
+    padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 3px;
@@ -222,10 +222,6 @@
 
   .hover-text {
     font-size: 5px;
-  }
-
-  .list-item:hover .hover-text {
-    color: skyblue;
   }
 
   .home-image {
