@@ -429,7 +429,7 @@
   padding: 100px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
   .profile-bottom-container {
     padding-top: 0px;
   }
@@ -637,6 +637,10 @@
     border-radius: 4px;
     font-size: 10px;
     width: 80px;
+  }
+
+  .btn-cont {
+  font-size: 10px;
   }
 
   .submit-btn {
