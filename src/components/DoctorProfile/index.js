@@ -223,7 +223,7 @@ const DoctorProfile = () => {
               {doctorDetails.specialization}
             </p>
             <p className="profile-experience">
-              {doctorDetails.experience} of experience overall
+              {doctorDetails.experience} years of experience overall
             </p>
             <div className="profile-verified-cont">
               <VscVerifiedFilled className="tic-icon" />
